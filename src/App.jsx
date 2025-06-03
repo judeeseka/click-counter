@@ -12,7 +12,7 @@ function App() {
       const currentNum = prev - 1;
       if (currentNum < 0) {
         setReachedLimit(true)
-        return 
+        return prev
       } else {
         return prev - 1
       }
